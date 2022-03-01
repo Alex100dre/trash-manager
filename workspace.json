@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "tm-api": "apps/tm-api",
     "tm-webapp": "apps/tm-webapp",
     "tm-webapp-e2e": "apps/tm-webapp-e2e"
   }
