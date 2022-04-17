@@ -10,7 +10,10 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "@mui/styled-engine": ["../node_modules/@mui/styled-engine-sc"]
+    }
   },
   "files": [],
   "include": [],
