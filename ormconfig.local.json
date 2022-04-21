@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "_username_",
+  "password": "_password_",
+  "database": "trashmanager",
+  "entities": ["apps/tm-api/**/*.entity.js"],
+  "migrations": ["apps/tm-api/src/migrations/*"],
+  "cli": {
+    "migrationsDir": "apps/tm-api/src/migrations"
+  }
+}
